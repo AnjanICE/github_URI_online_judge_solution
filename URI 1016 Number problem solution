@@ -1,0 +1,10 @@
+#include <stdio.h>
+main()
+{
+    int A=60,B=90,DIS,Y,x;
+    scanf("%d",&DIS);
+     x=B-A;
+     Y=(A*DIS)/30;
+    printf("%d minutos\n",Y);
+    return 0;
+    }
