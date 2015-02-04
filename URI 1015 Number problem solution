@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+main()
+{
+    int x1,y1,x2,y2;
+    float D,DIS;
+    scanf("%d %d",&x1,&y1);
+    scanf("%d %d",&x2,&y2);
+    D=((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
+    DIS=sqrt(D);
+    printf("%.4f\n",DIS);
+    return 0;
+    }
