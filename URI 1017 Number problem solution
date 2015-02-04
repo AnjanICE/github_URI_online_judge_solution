@@ -1,0 +1,11 @@
+#include <stdio.h>
+main()
+{
+    int Time,Vel,res;
+    float litre;
+    scanf("%d %d",&Time,&Vel);
+    res=Time*Vel;
+    litre=(float)res/12;
+    printf("%.3f\n",litre);
+    return 0;
+    }
