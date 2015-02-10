@@ -1,0 +1,25 @@
+#include <stdio.h>
+main()
+{
+    int code,q;
+    float code1=4.00,code2=4.50,code3=5.00,code4=2.00,code5=1.50;
+    scanf("%d %d",&code,&q);
+    float total;
+    if(code==1){
+    total=code1*q;
+    printf("Total: R$ %.2f\n",total);}
+    if(code==2){
+    total=code2*q;
+    printf("Total: R$ %.2f\n",total);}
+    if(code==3){
+    total=code3*q;
+    printf("Total: R$ %.2f\n",total);}
+    if(code==4){
+    total=code4*q;
+    printf("Total: R$ %.2f\n",total);}
+    if(code==5){
+    total=code5*q;
+    printf("Total: R$ %.2f\n",total);}
+
+return 0;
+}
