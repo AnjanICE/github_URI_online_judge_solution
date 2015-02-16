@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    int a;
+    int sum=0;
+    float count=0.0;
+    while(scanf("%d",&a)){
+              if(a<0)
+              break;
+              sum=sum+a;
+              count = count+1.0;
+    }
+    printf("%.2f\n", sum/count);
+    return 0;
+}
