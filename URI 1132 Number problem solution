@@ -1,0 +1,18 @@
+#include <stdio.h>
+main()
+{
+	int i,m,n,p,count=0,sum=0;
+	scanf("%d %d",&m,&n);
+	if(m>n)
+    {
+        p=m;
+        m=n;
+        n=p;
+    }
+	for(i=m;i<=n;i++)
+		if(i%13!=0){
+		sum=sum+i;
+		count++;}
+    printf("%d\n",sum);
+return 0;
+}
