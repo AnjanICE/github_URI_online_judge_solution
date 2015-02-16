@@ -1,0 +1,18 @@
+#include <stdio.h>
+main()
+{
+	int i,m,n,p,count;
+	scanf("%d %d",&m,&n);
+	if(m>n)
+    {
+        p=m;
+        m=n;
+        n=p;
+    }
+	for(i=m+1;i<n;i++){
+		if(i%5==2 || i%5==3){
+        printf("%d\n",i);}
+
+	}
+return 0;
+}
