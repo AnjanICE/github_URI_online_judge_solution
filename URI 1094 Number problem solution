@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    int i,quant,q;
+    float C=0,R=0,S=0,total,pc=0,pr=0,ps=0;
+    char t;
+        scanf("%d",&q);
+        for (i=1; i<=q; i++){
+            scanf("%d %c",&quant,&t);
+            total=quant+total;
+            if (t=='C'){
+                  C=quant+C;}
+             else
+             if (t=='R'){
+                   R=quant+R;}
+            else{
+                S=quant+S;}}
+             pc=(C/total)*100;
+             pr=(R/total)*100;
+             ps=(S/total)*100;
+             printf("Total: %d cobaias\n",(int)total);
+             printf("Total de coelhos: %d\n",(int)C);
+             printf("Total de ratos: %d\n",(int)R);
+             printf("Total de sapos: %d\n",(int)S);
+             printf("Percentual de coelhos: %.2f %%\n",pc);
+             printf("Percentual de ratos: %.2f %%\n",pr);
+             printf("Percentual de sapos: %.2f %%\n",ps);
+
+              return 0;
+               }
