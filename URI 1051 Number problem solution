@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    double a,res;
+        scanf("%lf",&a);
+    if(a>=0 && a <= 2000)
+        printf("Isento\n");
+    else if (a > 2000 && a <= 3000){
+        res=(a-2000)*0.08;
+        printf("R$ %.2lf\n",res);}
+    else if (a > 3000 && a <= 4500){
+        res=((a-3000)*0.18) + 80.00;
+        printf("R$ %.2lf\n",res);}
+    else if (a > 4500){
+        res=((a-4500)*0.28) + 350.00;
+        printf("R$ %.2lf\n",res);}
+    return 0;
+}
