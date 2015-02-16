@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+main()
+{
+    int n,i,x,t;
+    scanf("%d",&t);
+    while(t-- && scanf("%d",&n)==1){
+    x=sqrt(n);
+    for(i=2;i<=x;i++)
+    {
+    if(n%i==0)
+    break;
+    }
+    if(n>1&&i==x+1)
+     printf("%d eh primo\n",n);
+    else
+    printf("%d nao eh primo\n",n);
+    }
+    return 0;
+    }
