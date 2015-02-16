@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    float n;
+    int arm=0,cont;
+    for(cont=1;cont<=6;cont++)
+    {
+    scanf("%f",&n);
+    if(n>=0)
+    {
+    arm=arm+1;
+    }
+    }
+    printf("%d valores positivos\n",arm);
+return 0;
+}
