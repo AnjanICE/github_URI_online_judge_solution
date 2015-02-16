@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int m,t,n,i=0;
+    float p;
+    scanf("%d",&t);
+    while(t-- && scanf("%d %d",&m,&n)==2)
+        {
+            if(n==0)
+            printf("divisao impossivel\n");
+            else
+            {
+            p=(float)m/(float)n;
+            printf("%.1f\n",p);
+            }
+        }
+            return 0;
+        }
